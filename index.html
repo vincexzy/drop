@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>拖放</title>
+    <style media="screen">
+    .box{
+      width: 400px;
+      height: 600px;
+      float: left;
+      border-width: 1px;
+      border-color: #000000;
+      border-style: solid;
+    }
+    #box1{
+      background-color: #999;
+    }
+    #box2{
+      background-color: #333;
+    }
+    img{
+      height: 500px;
+      width: auto;
+	  margin:40px;
+	  margin-top:50px;
+    }
+    </style>
+  </head>
+  <body >
+    <div id="box1" class="box"></div>
+    <div id="box2" class="box"></div>
+    <img src="1.jpg" id="a" draggable="true">
+    <div id="msg"></div>
+    <script src="a.js" charset="utf-8"></script>
+  </body>
+</html>
